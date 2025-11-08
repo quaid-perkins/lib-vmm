@@ -3,8 +3,13 @@ name = "lib-vmm"
 authors = ["Ghoul"]
 version = "0.1.0"
 edition = "2024"
-description = "A library for working with Void mod manager and making plugins for it."
+description = "Offical SDK for developing plugins for Void Mod Manager (VMM)"
+license = "GPL-3.0-only"
+license-file = "LICENSE.md"
+readme = "README.md"
+keywords = ["modding", "plugins", "sdk", "games", "modding"]
 repository = "https://github.com/void-mod-manager/lib-vmm"
+categories = ["modding"]
 
 [dependencies]
 async-trait = "0.1.89"
